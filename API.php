@@ -98,7 +98,6 @@ function downloadRepository($username, $name, $custom = []){
 $msg = "<b>✨ A new repository was sent 🎉</b>
 <b>🏷 Title:</b> <i>{$repo['title']}</i>
 
-<b>👤 From:</b> <a href=\"tg://user?id={$from_id}\">" . htmlspecialchars($first_name) . "</a> (<a href=\"{$repo['user']}\">Github</a>)
 <b>🔗 Link:</b> $lisk
 <b>⭐️ Star(s):</b> <code>{$repo['stars']}</code>
 <b>👁‍🗨 Watch(s):</b> <code>{$repo['watchs']}</code>
